@@ -1,0 +1,12 @@
+{
+  "name": "polygen-sample",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Iskander Sierra <iskander.sierra@gmail.com> (https://iskandersierra@github.com/)",
+  "license": "MIT",
+  "scripts": {
+    "polygen": "node node_modules/polygen/dist/bin.js",
+    "polygen-time": "node node_modules/polygen/dist/bin-time.js",
+    "polygen-test": "node node_modules/polygen/dist/bin.js info -p generator -l t"
+  }
+}

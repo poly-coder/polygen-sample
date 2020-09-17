@@ -1,0 +1,13 @@
+{
+    "details": {
+        "description": "Allows creating new generators in your local project",
+        "author": "Iskander Sierra"
+    },
+    "engine": "copy",
+    "commands": {
+        "index": {
+            "schema": "index.schema.json",
+            "js": "index.js"
+        }
+    }
+}
