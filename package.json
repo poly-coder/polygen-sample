@@ -5,8 +5,8 @@
   "author": "Iskander Sierra <iskander.sierra@gmail.com> (https://iskandersierra@github.com/)",
   "license": "MIT",
   "scripts": {
-    "polygen": "node node_modules/polygen/dist/bin.js",
-    "polygen-time": "node node_modules/polygen/dist/bin-time.js",
-    "polygen-test": "node node_modules/polygen/dist/bin.js info -p generator -l t"
+    "pcgen": "node node_modules/polygen/dist/bin.js",
+    "pcgen-time": "node node_modules/polygen/dist/bin-time.js",
+    "pcgen-debug": "node node_modules/polygen/dist/bin.js ls -d -c -l t"
   }
 }

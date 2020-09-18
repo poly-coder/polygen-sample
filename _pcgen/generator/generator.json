@@ -1,0 +1,19 @@
+{
+    "details": {
+        "author": "Iskander Sierra",
+        "version": "1",
+        "description": "Allows creating new generators in your local project"
+    },
+    "engine": "ejs",
+    "outDir" : "%PCGEN_FOLDER%",
+    "commands": [
+        {
+            "name": "new",
+            "js": "new.js",
+            "details": {
+                "version": "1",
+                "description": "Default command to generate the entire project"
+            }
+        }
+    ]
+}
