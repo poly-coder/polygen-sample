@@ -7,7 +7,7 @@
   "scripts": {
     "pcgen": "node node_modules/polygen/dist/bin.js",
     "pcgen-time": "node node_modules/polygen/dist/bin-time.js",
-    "pcgen-debug": "node node_modules/polygen/dist/bin.js new generator -l t"
+    "pcgen-debug": "node node_modules/polygen/dist/bin.js ls -l t"
   },
   "dependencies": {}
 }

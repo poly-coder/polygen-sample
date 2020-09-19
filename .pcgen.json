@@ -1,0 +1,11 @@
+{
+    "searchPaths": [],
+    "basePath": ".",
+    "pcgenFolder": "_pcgen",
+    "generatorFolder": "generator",
+    "commandsFolder": "commands",
+    "templatesFolder": "templates",
+    "defaultCommand": "new",
+    "cwd": ".",
+    "generatorAssets": "..\\polygen\\assets\\generator"
+}

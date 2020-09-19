@@ -1,12 +1,11 @@
 module.exports = {
-    run: function run({module}) {
+    run: function run({name, h}) {
         return {
             steps: [
                 {
-                    type: "template",
-                    to: "hello-world.txt",
+                    type: "copy",
+                    to: `${name}/hello-world.txt`,
                     from: "hello-world.txt",
-                    engine: "ejs"
                 }
             ]
         }
