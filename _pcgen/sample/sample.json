@@ -1,0 +1,19 @@
+{
+    "details": {
+        "version": "1",
+        "description": "Description of generator sample"
+    },
+    "engine": "ejs",
+    "outDir" : ".",
+    "commands": [
+        {
+            "name": "new",
+            "requireName": true,
+            "js": "new.js",
+            "details": {
+                "version": "1",
+                "description": "Description of command 'new'"
+            }
+        }
+    ]
+}
